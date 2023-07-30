@@ -1,0 +1,147 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Оформление к странице "Урок №4*/
+
+.block_hover_p:hover {
+  background-color: black;
+  color: #ffffff;
+}
+
+.visual_border1_block {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.visual_border1_block:hover {
+  background-color: orange;
+}
+
+.margin_block {
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin: 24px;
+  background-color: white;
+}
+
+.margin_block:hover {
+  background-color: green;
+}
+
+.border_block {
+  border: 1px solid black;
+  width: 225px;
+  height: 225px;
+  margin: 11px;
+  padding: 20px;
+  background-color: white;
+}
+
+.border_block:hover {
+  background-color: violet;
+}
+
+.padding_block {
+  border: 1px solid black;
+  width: 180px;
+  height: 180px;
+  background-color: white;
+}
+
+.padding_block:hover {
+  background-color: tomato;
+}
+
+.margin_color {
+  font-weight: bold;
+  color: orange;
+  text-decoration: none;
+}
+
+.border_color {
+  font-weight: bold;
+  color: green;
+  text-decoration: none;
+}
+
+.paddeng_color {
+  font-weight: bold;
+  color: violet;
+  text-decoration: none;
+}
+
+.content_color {
+  font-weight: bold;
+  color: tomato;
+  text-decoration: none;
+}
+
+.main_block {
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.left_block {
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  display: inline-block;
+}
+
+.right_block {
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  display: inline-block;
+}
+
+.left_2_block {
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+
+.right_2_block {
+  border: 3px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+
+.block_float {
+  border: 1px solid black;
+  width: 300px;
+  height: 250px;
+  margin-left: 50px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.block_float > p {
+  margin: 0;
+  overflow: hidden;
+}
+
+.block_left > img {
+  width: 100px;
+  float: left;
+}
+
+.block_right > img {
+  width: 100px;
+  float: right;
+}
+
+.block_flex {
+  display: flex;
+}

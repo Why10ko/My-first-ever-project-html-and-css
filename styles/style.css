@@ -1,0 +1,134 @@
+/* Общее */
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1140px;
+  min-width: 550px;
+  margin: 20px auto;
+}
+
+.lang_button {
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(16, 112, 117, 0.2);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  color: #1f3f68;
+}
+
+/* Заголовки */
+
+.headerH1 {
+  font-size: 64px;
+  color: #1f3f68;
+  width: 510px;
+}
+
+.headerH2 {
+  font-weight: 500;
+  font-size: 44px;
+  text-align: center;
+}
+
+.headerH3 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.headerH4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1f3f68;
+}
+
+.navigation,
+.goals_descrip_block,
+.contacts_main_block,
+.footer_contacts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+	margin: 20px 0;
+}
+
+.p_below_h1 {
+  width: 425px;
+}
+
+/* Страница Контакты */
+
+.header_p_text_center {
+  text-align: center;
+}
+
+.get_info {
+  border: 1px solid #356ead;
+  box-sizing: border-box;
+  border-radius: 10px;
+  opacity: 0.4;
+  margin: 5px 0;
+}
+
+.button_submit {
+  background: #5a98d0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 117, 0.2);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.ul-inside,
+.footer_contacts,
+.navigation {
+  list-style-position: inside;
+}
+
+/* Главная страница */
+
+.home_page {
+  align-self: flex-start;
+}
+
+.contackts_page {
+  align-self: flex-end;
+}
+
+.first_goal_block,
+.second_goal_block,
+.third_goal_block {
+  width: 359px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.ps_block {
+  width: 495px;
+}
+
+.ps_block > h3 {
+  width: 340px;
+}

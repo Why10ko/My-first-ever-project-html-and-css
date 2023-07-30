@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 4</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/style_les4.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="menu_block">
+				<nav>
+					<ol class="navigation">
+						<li><a href="main.html">Главная</a></li>
+						<li><a href="index_lesson_4.html">Урок №4</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+
+					</ol>
+				</nav>
+			</div>
+			<div class="intro_block">
+				<h1 class="headerH1">Разбор урока №4.</h1>
+				<p class="paragraph p_below_h1">Для закрепления материала была создана отдельная страница для урока №4. Верстка
+					данной
+					страницы помогла мне лучше понять как разбивать на блоки и как в
+					последствии работать с ними.</p>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="blok_string">
+				<h2 class="headerH2">Блочные и строчные элементы.</h2>
+				<p class="block_hover_p paragraph">Блочный элемент занимает всю ширину страницы если не заданна определенная
+					ширина через
+					css. <br> Мы можем это увидеть наведя курсор мыши на данный параграф.
+				</p>
+				<p class="paragraph">В данном параграфе мы видим строчный элемент <span class="block_hover_p">занимающий
+						определенную область
+						(Наведите)</span>
+					внутри блочного элемента.</p>
+			</div>
+			<div class="block_model">
+				<h2 class="headerH2">Блочная модель</h2>
+				<p class="paragraph">Ниже мы можем увидеть блочную модель состоящую из
+					<span class="margin_color">Margin 24px</span>,
+					<span class="border_color">Border 11px</span>,
+					<span class="paddeng_color">Padding 20px</span>,
+					<span class="content_color">Content 180px</span>.
+				</p>
+				<p class="paragraph">Изначально ширина
+					контента составляла 180 px, но сейчас он составит 290px, это сумма самого
+					контента,
+					рамки с двух
+					сторон и внешних и внутренних отступов тоже с двух сторон. (Не учтены размеры border: 1px, так как они только
+					играют роль границ рисунка) </p>
+				<div class="visual_border1_block">
+					<div class="margin_block">
+						<div class="border_block">
+							<div class="padding_block">
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h4 class="headerH4">Схлопывание</h4>
+					<p class="paragraph">Складывание отступа имеет одно исключение, ниже приведен пример:</p>
+					<p class="paragraph">В первом примере задан одинаковый внешний отступ для двух объектов, 50px. По трем
+						сторонам
+						отступ
+						составляет 50px, при горизонтальном росположении между объектами отступ складывается и составляет 100px</p>
+					<div class="main_block">
+						<div class="left_block">
+						</div>
+						<div class="right_block">
+						</div>
+					</div>
+					<p class="paragraph">Во втором примере заданы идентичные параметры 50px внешний отступ у двух обьектов. При
+						вертекальном расположении отступ между обьектами не складывается, отступ остается 50px.</p>
+					<div class="main_block">
+						<div class="left_2_block">
+						</div>
+						<div class="right_2_block">
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div>
+				<h2 class="headerH2">Обтекаемые элементы</h2>
+				<div class="block_flex">
+					<div class="block_left block_float">
+						<img src="img/8459492-1.jpg" alt="">
+						<p>«Зов предков» — повесть американского писателя Джека Лондона, опубликованная в 1903 году.</p>
+					</div>
+					<div class="block_right block_float">
+						<img src="img/8459492-1.jpg" alt="">
+						<p>«Зов предков» — повесть американского писателя Джека Лондона, опубликованная в 1903 году.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<footer>
+
+	</footer>
+</body>
+
+</html>
